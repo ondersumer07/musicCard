@@ -1,4 +1,4 @@
-# A Svelte component to showcase your song data
+# musicCard - A Svelte component to showcase your song data
 
 You can use this component to display your music history. Even if it's now playing, it'll deliver the message.
 
