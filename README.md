@@ -5,9 +5,9 @@ You can use this component to display your music history. Even if it's now playi
 [View Documentation](https://ondersumer.com) . [Report bug](https://github.com/ondersumer07/musicCard/issues)
 
 ## About the project
-![Now Playing Demo]()
+![Now Playing Demo](https://raw.githubusercontent.com/ondersumer07/musicCard/master/static/demos/gif/nowPlayingDemo.gif)
 
-This is a demo site's repository. You can clone this repo and adjust to your liking, or even build your website on top of it. It took a long time to adjust bits of this component, and I believe it was worth it. weatherCard utilizes [Open Weather API](https://openweathermap.org/api), so you will need an API key from them. You can use their free plan if you plan on building a small project. Also, for the maps feature, you will need [Maps Static API](https://developers.google.com/maps/documentation/maps-static) from Google.
+This is a demo site's repository. You can clone this repo and adjust to your liking, or even build your website on top of it. Although a basic card, I believe it tells a lot more about me. To run this project, you'll need a [last.fm API](https://www.last.fm/api) key. You'll need to set up an account and link your platforms to last.fm.
 
 ## Built With
 
@@ -15,7 +15,6 @@ This is a demo site's repository. You can clone this repo and adjust to your lik
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Skeleton](https://www.skeleton.dev/)
-- [Floating UI](https://floating-ui.com/) (with Skeleton)
 - APIs mentioned in features.
 
 ## Installation
@@ -29,7 +28,7 @@ First, install npm. The latest version recommended as all the packages in this p
 After, clone the repository.
 
 ```bash
-  git clone https://github.com/ondersumer07/weatherCard.git
+  git clone https://github.com/ondersumer07/musicCard.git
 ```
 
 Then, you need to install the project packages.
@@ -42,48 +41,29 @@ Go crazy!
 
 ## Features
 
-This component supports every possible weather condition mentioned in Open Weather API. It has 7 different animated backgrounds for various situations. Even if the title isn't directly supported, it's replaced by the most similar weather condition. Here are those animations:
+musicCard supports more information on your music. It takes the cover as a background and displays if your song is "Now Playing" or was "Last Played." Here are the demos:
 
-### Clear (Morning)
-![Clear Morning Demo](https://raw.githubusercontent.com/ondersumer07/weatherCard/master/static/demos/gif/sunnyDemo.gif)
+### Now Playing
+![Now Playing Demo](https://raw.githubusercontent.com/ondersumer07/musicCard/master/static/demos/gif/nowPlayingDemo.gif)
 
-### Clear (Night)
-![Clear Night Demo](https://raw.githubusercontent.com/ondersumer07/weatherCard/master/static/demos/gif/clearNightDemo.gif)
+### Last Played
+![Last Played Demo](https://raw.githubusercontent.com/ondersumer07/musicCard/master/static/demos/gif/lastPlayedDemo.gif)
 
-### Clouds (Morning)
-![Clouds Morning Demo](https://raw.githubusercontent.com/ondersumer07/weatherCard/master/static/demos/gif/cloudsDemo.gif)
+You can also click on the musicCard to go to that specific song's page on last.fm!
 
-### Clouds (Night)
-![Clouds Night Demo](https://raw.githubusercontent.com/ondersumer07/weatherCard/master/static/demos/gif/cloudsNightDemo.gif)
-
-### Rain
-![Rain Demo](https://raw.githubusercontent.com/ondersumer07/weatherCard/master/static/demos/gif/rainDemo.gif)
-
-### Thunderstorm
-![Thunderstorm Demo](https://raw.githubusercontent.com/ondersumer07/weatherCard/master/static/demos/gif/thunderstormDemo.gif)
-
-### Snow
-![Snow Demo](https://raw.githubusercontent.com/ondersumer07/weatherCard/master/static/demos/gif/snowDemo.gif)
-
-Besides the weather condition, weatherCard also has a popup feature that shows the geographical location of your city. It uses Google's Maps Static API which is also customizable. You need to adjust your city name in the +page.server.js. You can find more detailed information about how to customize it in the documentation. Here's how the maps function work:
-
-![Maps Demo Istanbul](https://raw.githubusercontent.com/ondersumer07/weatherCard/master/static/demos/gif/mapsDemoIstanbul.gif)
-
-![Maps Demo NYC](https://raw.githubusercontent.com/ondersumer07/weatherCard/master/static/demos/gif/mapsDemoNYC.gif)
+![Link Click Demo](https://raw.githubusercontent.com/ondersumer07/musicCard/master/static/demos/gif/linkClickDemo.gif)
 
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`OPEN_WEATHER_API_KEY`
-
-`MAPS_API_KEY`
+`LAST_FM_API_KEY`
 
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-- If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/ondersumer07/weatherCard/issues) to discuss it, or directly create a pull request after you edit the README.md file with necessary changes.
+- If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/ondersumer07/musicCard/issues) to discuss it, or directly create a pull request after you edit the README.md file with necessary changes.
 - Please make sure you check your spelling and grammar.
 - Create individual PR for each suggestion.
 
