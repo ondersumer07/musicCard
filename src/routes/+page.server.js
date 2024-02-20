@@ -1,6 +1,6 @@
 // Import lastfm API key
 import { LAST_FM_API_KEY } from '$env/static/private';
-let usernameLastfm = 'ondersumer07';
+let usernameLastfm = 'example';
 
 export const load = async () => {
 	try {
