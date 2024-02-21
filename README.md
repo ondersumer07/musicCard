@@ -2,7 +2,7 @@
 
 You can use this component to display your music history. Even if it's now playing, it'll deliver the message.
 
-[View Documentation](https://ondersumer.com) . [Report bug](https://github.com/ondersumer07/musicCard/issues)
+[View Documentation](https://ondersumer.com/quirks/documentation/musicCard) . [Report bug](https://github.com/ondersumer07/musicCard/issues)
 
 ## About the project
 ![Now Playing Demo](https://raw.githubusercontent.com/ondersumer07/musicCard/master/static/demos/gif/nowPlayingDemo.gif)
